@@ -16,8 +16,8 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  binding.pry
   planeteer_calls.collect {|element| element = valid_calls}
+  binding.pry
 end
 
 # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above
